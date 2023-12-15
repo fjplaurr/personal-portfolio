@@ -24,8 +24,12 @@ export default function LogosList() {
               colors and prices, facilitating a seamless purchasing experience.
             </p>
             <div className={styles.linksContainer}>
-              <a href="https://github.com/fjplaurr/flyflowers">See Code</a>
-              <a href="https://flyflowers.onrender.com/">See Live Demo</a>
+              <a target="_blank" href="https://github.com/fjplaurr/flyflowers">
+                See Code
+              </a>
+              <a target="_blank" href="https://flyflowers.onrender.com/">
+                See Live Demo
+              </a>
             </div>
           </div>
         </div>
@@ -49,8 +53,12 @@ export default function LogosList() {
               experience for seamless interaction and community building.
             </p>
             <div className={styles.linksContainer}>
-              <a href="https://github.com/fjplaurr/flyflowers">See Code</a>
-              <a href="https://flyflowers.onrender.com/">See Live Demo</a>
+              <a target="_blank" href="https://github.com/fjplaurr/flyflowers">
+                See Code
+              </a>
+              <a target="_blank" href="https://flyflowers.onrender.com/">
+                See Live Demo
+              </a>
             </div>
           </div>
         </div>

@@ -9,12 +9,17 @@ export default function LogosList() {
         <span>fjplaurr@gmail.com</span>
       </div>
 
-      <a className={styles.logoContainer} href="https://github.com/fjplaurr">
+      <a
+        target="_blank"
+        className={styles.logoContainer}
+        href="https://github.com/fjplaurr"
+      >
         <Image src="/github.svg" alt="github logo" width={24} height={24} />
         <span>Github</span>
       </a>
 
       <a
+        target="_blank"
         className={styles.logoContainer}
         href="https://www.linkedin.com/in/fcojplaza/"
       >
@@ -23,6 +28,7 @@ export default function LogosList() {
       </a>
 
       <a
+        target="_blank"
         className={styles.logoContainer}
         href="https://www.linkedin.com/in/fcojplaza/"
       >
