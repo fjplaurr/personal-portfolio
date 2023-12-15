@@ -8,7 +8,7 @@ export default function TestimonialsList() {
           “Rarely will you come across exceptional talent like Fran. I had the
           pleasure of working with him at Hispatec, where we used to enjoy
           collaborating as software engineers on the development of ERP
-          software. Fran's remarkable ability to grasp new concepts was truly
+          software. Fran&rsquo;s remarkable ability to grasp new concepts was truly
           impressive. His passion for sharing knowledge with others, coupled
           with his commitment to learning, made him an invaluable asset to any
           software development team.”
@@ -32,9 +32,9 @@ export default function TestimonialsList() {
         <p className={styles.testimonialText}>
           “Fran is an outstanding Frontend Developer who brings a strong
           positive and friendly attitude to the team. His enthusiasm and
-          curiosity to learn more are truly admirable. Fran's deep interest in
+          curiosity to learn more are truly admirable. Fran&rsquo;s deep interest in
           working on projects that enhance the product is evident in his
-          dedication and passion. Fran's collaborative spirit and eagerness to
+          dedication and passion. Fran&rsquo;s collaborative spirit and eagerness to
           contribute make him a valued team member - I really enjoyed working
           closely with him and have full confidence that he will continue to
           excel in his role and contribute significantly to the success of
