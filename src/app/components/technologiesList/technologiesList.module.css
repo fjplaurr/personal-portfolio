@@ -1,0 +1,14 @@
+.technologiesList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+
+  .listItem {
+    .logoContainer {
+      background-color: #f7f8fc;
+      padding: 0.5rem;
+      border-radius: 0.25rem;
+      text-align: center;
+    }
+  }
+}

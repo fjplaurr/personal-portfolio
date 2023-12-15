@@ -1,0 +1,13 @@
+.logoContainer {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.logosContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+}
