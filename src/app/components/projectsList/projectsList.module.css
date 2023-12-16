@@ -35,8 +35,18 @@
       }
     }
 
-    .projectImage {
-      object-fit: cover;
+    .projectImageMobile {
+      display: block;
+      @media (min-width: 768px) {
+        display: none;
+      }
+    }
+
+    .projectImageDesktop {
+      display: none;
+      @media (min-width: 768px) {
+        display: block;
+      }
     }
 
     .projectTitle {

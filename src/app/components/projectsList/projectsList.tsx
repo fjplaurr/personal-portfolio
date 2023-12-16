@@ -1,5 +1,7 @@
 import Image from "next/image";
 import styles from "./projectsList.module.css";
+import flyflowers from "./flyflowers.png";
+import talktalk from "./talktalk.png";
 
 export default function LogosList() {
   return (
@@ -8,11 +10,20 @@ export default function LogosList() {
         <div className={styles.projectImageAndInfoContainer}>
           <div className={styles.projectImageWrapper}>
             <Image
-              className={styles.projectImage}
-              fill
-              sizes="100vw"
-              src="/flyflowers.svg"
+              src={flyflowers}
               alt="FlyFlowers project. An e-commerce website to buy flowers"
+              quality={100}
+              width={420}
+              height={241.19}
+              className={styles.projectImageDesktop}
+            />
+            <Image
+              src={flyflowers}
+              alt="FlyFlowers project. An e-commerce website to buy flowers"
+              quality={100}
+              width={280}
+              height={163.13}
+              className={styles.projectImageMobile}
             />
           </div>
           <div>
@@ -38,11 +49,20 @@ export default function LogosList() {
         <div className={styles.projectImageAndInfoContainer}>
           <div className={styles.projectImageWrapper}>
             <Image
-              className={styles.projectImage}
-              fill
-              sizes="100vw"
-              src="/talktalk.svg"
+              src={talktalk}
               alt="TalkTalk project. A social network to share messages"
+              quality={100}
+              width={420}
+              height={241.19}
+              className={styles.projectImageDesktop}
+            />
+            <Image
+              src={talktalk}
+              alt="TalkTalk project. A social network to share messages"
+              quality={100}
+              width={280}
+              height={163.13}
+              className={styles.projectImageMobile}
             />
           </div>
           <div>
