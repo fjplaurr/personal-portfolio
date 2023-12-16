@@ -53,10 +53,13 @@ export default function LogosList() {
               experience for seamless interaction and community building.
             </p>
             <div className={styles.linksContainer}>
-              <a target="_blank" href="https://github.com/fjplaurr/flyflowers">
+              <a
+                target="_blank"
+                href="https://github.com/fjplaurr/talktalk-client"
+              >
                 See Code
               </a>
-              <a target="_blank" href="https://flyflowers.onrender.com/">
+              <a target="_blank" href="https://talktalk.onrender.com">
                 See Live Demo
               </a>
             </div>

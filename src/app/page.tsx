@@ -18,8 +18,8 @@ export default function Home() {
           <Image
             src="/avatar.svg"
             alt="personal avatar"
-            width={200}
-            height={200}
+            width={135}
+            height={135}
           />
         </div>
         <LogosList />
