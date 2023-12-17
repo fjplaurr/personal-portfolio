@@ -12,8 +12,8 @@ export default function Home() {
         <div className={styles.avatarAndTitleContainer}>
           <h1 className={styles.sectionTitle}>
             Fran Plaza is a professional developer who can turn any business
-            idea into a reality.
-            He loves learning from others&apos; experiences and sharing his own.
+            idea into a reality. He loves learning from others&apos; experiences
+            and sharing his own.
           </h1>
           <Image
             src="/avatar.svg"

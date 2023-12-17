@@ -1,0 +1,14 @@
+.header {
+  background-color: #2e2e48;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding-block: 0.75rem;
+}
+
+.footer {
+  background-color: #2e2e48;
+  color: #fff;
+  padding-block: 0.75rem;
+  font-size: 1rem;
+}

@@ -12,8 +12,17 @@ body {
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.5;
-  @media (min-width: 767px) {
+
+  @media (min-width: 768px) {
     font-size: 1.25rem;
+  }
+}
+
+body > * {
+  padding-inline: 1.25rem;
+
+  @media (min-width: 768px) {
+    padding-inline: 20%;
   }
 }
 
