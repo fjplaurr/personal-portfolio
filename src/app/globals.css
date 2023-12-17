@@ -22,7 +22,7 @@ body > * {
   padding-inline: 1.25rem;
 
   @media (min-width: 768px) {
-    padding-inline: 20%;
+    padding-inline: 30%;
   }
 }
 
