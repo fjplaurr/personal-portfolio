@@ -8,7 +8,7 @@ export default function TestimonialsList() {
         <li key={author}>
           <div className={styles.quoteContainer}>
             <p className={styles.leftQuote}>“</p>
-            <p className={styles.testimonialText}>{text}</p>
+            <p>{text}</p>
             <p className={`${styles.rightQuote}`}>“</p>
           </div>
           <p className={styles.testimonialAuthor}>{`- ${author}.`}</p>
