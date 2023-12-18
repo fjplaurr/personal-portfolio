@@ -11,9 +11,8 @@ export default function Home() {
       <section className={styles.sectionContainer}>
         <div className={styles.avatarAndTitleContainer}>
           <h1 className={styles.sectionTitle}>
-            Fran Plaza is a professional developer who can turn any business
-            idea into a reality. He loves learning from others&apos; experiences
-            and sharing his own.
+            Master's in Engineering and Professional Developer.
+            Contact me and don't miss the chance to develop your product vision.
           </h1>
           <Image
             src="/avatar.svg"
@@ -26,18 +25,18 @@ export default function Home() {
       </section>
 
       <section className={styles.sectionContainer}>
-        <h2 className={styles.sectionTitle}>Some projects:</h2>
-        <ProjectsList />
-      </section>
-
-      <section className={styles.sectionContainer}>
         <h2 className={styles.sectionTitle}>Testimonials:</h2>
         <TestimonialsList />
       </section>
 
       <section className={styles.sectionContainer}>
+        <h2 className={styles.sectionTitle}>Some demo projects:</h2>
+        <ProjectsList />
+      </section>
+
+      <section className={styles.sectionContainer}>
         <h2 className={styles.sectionTitle}>
-          Main technologies but not the only ones:
+          Some technologies:
         </h2>
         <TechnologiesList />
       </section>

@@ -5,9 +5,27 @@
   font-size: 1rem;
   line-height: 1.5rem;
 
-  .testimonialText {
-    font-style: italic;
+  .quoteContainer {
+    display: flex;
+    alignitems: flex-start;
+    gap: 0.5rem;
+
+    .leftQuote {
+      font-size: 3rem;
+      font-family: serif;
+    }
+
+    .testimonialText {
+      font-style: italic;
+    }
+
+    .rightQuote {
+      font-size: 3rem;
+      font-family: serif;
+      transform: rotate(180deg);
+    }
   }
+
   .testimonialAuthor {
     font-size: 0.75rem;
   }

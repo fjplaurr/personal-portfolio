@@ -26,20 +26,6 @@ export default function LogosList() {
         <Image src="/linkedin.svg" alt="linkedin logo" width={24} height={24} />
         <span>Linkedin</span>
       </a>
-
-      <a
-        target="_blank"
-        className={styles.logoContainer}
-        href="https://www.linkedin.com/in/fcojplaza/"
-      >
-        <Image
-          src="/stackoverflow.svg"
-          alt="stackoverflow logo"
-          width={24}
-          height={24}
-        />
-        <span>Stack Overflow</span>
-      </a>
     </div>
   );
 }
