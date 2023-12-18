@@ -11,8 +11,8 @@ export default function Home() {
       <section className={styles.sectionContainer}>
         <div className={styles.avatarAndTitleContainer}>
           <h1 className={styles.sectionTitle}>
-            Master's in Engineering and Professional Developer.
-            Contact me and don't miss the chance to develop your product vision.
+            Master&apos;s in Engineering and Professional Developer. Contact me
+            and don&apos;t miss the chance to develop your product vision.
           </h1>
           <Image
             src="/avatar.svg"
@@ -35,9 +35,7 @@ export default function Home() {
       </section>
 
       <section className={styles.sectionContainer}>
-        <h2 className={styles.sectionTitle}>
-          Some technologies:
-        </h2>
+        <h2 className={styles.sectionTitle}>Some technologies:</h2>
         <TechnologiesList />
       </section>
     </main>
