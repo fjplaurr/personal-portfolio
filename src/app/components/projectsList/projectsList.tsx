@@ -27,12 +27,11 @@ export default function LogosList() {
             />
           </div>
           <div>
-            <h3 className={styles.projectTitle}>Flyflowers e-commerce</h3>
+            <h3 className={styles.projectTitle}>Flyflowers</h3>
             <p className={styles.projectDescription}>
-              FlyFlowers is a showcase of an online shopping platform designed
-              for purchasing flower bouquets. Functioning as an e-commerce
-              solution, it empowers users to easily search for bouquets based on
-              colors and prices, facilitating a seamless purchasing experience.
+              E-commerce designed for purchasing flower bouquets. It empowers
+              users to easily search for bouquets based on colors, categories
+              and prices, facilitating a seamless purchasing experience.
             </p>
             <div className={styles.linksContainer}>
               <a target="_blank" href="https://github.com/fjplaurr/flyflowers">
@@ -66,11 +65,11 @@ export default function LogosList() {
             />
           </div>
           <div>
-            <h3 className={styles.projectTitle}>TalkTalk social media app</h3>
+            <h3 className={styles.projectTitle}>TalkTalk</h3>
             <p className={styles.projectDescription}>
-              TalkTalk is a streamlined social media application facilitating
-              friend connections and easy post sharing, redefining the user
-              experience for seamless interaction and community building.
+              Social media application that facilitates friend connections and
+              post sharing, redefining the user experience for community
+              building.
             </p>
             <div className={styles.linksContainer}>
               <a
