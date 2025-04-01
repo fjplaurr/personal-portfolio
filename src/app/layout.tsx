@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
 import styles from "./layout.module.css";
-import Head from "next/head";
 
 const montserrat = Montserrat({
   weight: ["400", "700"],
@@ -24,9 +23,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Head>
-        <link rel="canonical" href="https://www.franciscoplaza.com/" />
-      </Head>
       <body className={montserrat.className}>
         <header className={styles.header}>Fran Plaza</header>
         {children}
