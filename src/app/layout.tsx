@@ -2,8 +2,6 @@ import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
 import styles from "./layout.module.css";
-import LogosList from "./components/logosList";
-import Image from "next/image";
 import Head from "next/head";
 
 const montserrat = Montserrat({
