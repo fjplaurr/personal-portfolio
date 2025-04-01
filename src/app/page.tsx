@@ -2,7 +2,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import LogosList from "./components/logosList";
 import ProjectsList from "./components/projectsList";
-import TestimonialsList from "./components/testimonialsList/testimonialsList";
+import TestimonialsList from "./components/testimonialsList";
 import TechnologiesList from "./components/technologiesList";
 
 export default function Home() {
