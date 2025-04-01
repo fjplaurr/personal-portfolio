@@ -4,6 +4,7 @@ import "./globals.css";
 import styles from "./layout.module.css";
 import LogosList from "./components/logosList";
 import Image from "next/image";
+import Head from "next/head";
 
 const montserrat = Montserrat({
   weight: ["400", "700"],
@@ -25,6 +26,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <Head>
+        <link rel="canonical" href="https://www.franciscoplaza.com/" />
+      </Head>
       <body className={montserrat.className}>
         <header className={styles.header}>Fran Plaza</header>
         {children}
